@@ -9139,6 +9139,16 @@
 															{
 																"key": "Accept",
 																"value": "application/json"
+															},
+															{
+																"key": "Content-Type",
+																"value": "application/json",
+																"type": "text"
+															},
+															{
+																"key": "Authorization",
+																"value": "Bearer {{qargo_api_key}}",
+																"type": "text"
 															}
 														],
 														"url": {
@@ -9156,7 +9166,7 @@
 															"variable": [
 																{
 																	"key": "upload_id",
-																	"value": "820971fb-9403-0cc3-b763-05e2e05069c3"
+																	"value": "{{upload_id}}"
 																}
 															]
 														},
@@ -9737,6 +9747,11 @@
 													{
 														"key": "Authorization",
 														"value": "bearer {{Qargo_Api_Key}}",
+														"type": "text"
+													},
+													{
+														"key": "xmlInput",
+														"value": "{{xmlInput}}",
 														"type": "text"
 													}
 												],
@@ -18682,7 +18697,7 @@
 	],
 	"variable": [
 		{
-			"id": "ba5d9ffd-6255-4417-882f-57eb0d7ffb27",
+			"id": "2c7b2dfc-7c3c-4558-bd31-4cb298b683c1",
 			"key": "baseUrl",
 			"value": "/"
 		}
